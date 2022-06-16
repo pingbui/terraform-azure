@@ -23,7 +23,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_created"></a> [created](#input\_created) | Whether to create the policy. | `bool` | `true` | no |
-| <a name="input_custom_rules"></a> [custom\_rules](#input\_custom\_rules) | A list of custom rules. | `list(map(any))` | `[]` | no |
+| <a name="input_custom_rules"></a> [custom\_rules](#input\_custom\_rules) | A list of custom rules. | `any` | `[]` | no |
 | <a name="input_location"></a> [location](#input\_location) | location of the resource | `string` | n/a | yes |
 | <a name="input_managed_rules"></a> [managed\_rules](#input\_managed\_rules) | The managed rules. | `map(any)` | `{}` | no |
 | <a name="input_name"></a> [name](#input\_name) | The name of the policy. | `string` | n/a | yes |

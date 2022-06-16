@@ -21,7 +21,7 @@ variable "location" {
 
 variable "custom_rules" {
   description = "A list of custom rules."
-  type        = list(map(any))
+  type        = any
   default     = []
 }
 
